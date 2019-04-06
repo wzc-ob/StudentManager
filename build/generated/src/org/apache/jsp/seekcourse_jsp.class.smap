@@ -1,0 +1,35 @@
+SMAP
+seekcourse_jsp.java
+JSP
+*S JSP
+*F
++ 0 seekcourse.jsp
+seekcourse.jsp
++ 1 stu_header.jspf
+WEB-INF/jspf/stu_header.jspf
++ 2 tea_lefter.jspf
+WEB-INF/jspf/tea_lefter.jspf
++ 3 stu_footer.jspf
+WEB-INF/jspf/stu_footer.jspf
+*L
+5,25:64
+1#1,9:89
+9:290,8
+10:298,3
+11:301
+11,34:100
+29#0,9:133
+1#2,43:142
+37#0,29:184
+65:320,11
+66:331
+67,6:332,3
+73:350
+74:351,3
+75,3:354
+77,3:215
+80:218,5
+81,8:223
+1#3,38:231
+88#0,4:268
+*E

@@ -1,0 +1,43 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="layout bg-black bg-inverse hidden-l">
+    <div class="container-layout height-big">
+        <span class="float-right"> 
+            <a href="LogoutServlet">退出登录</a> <span class="text-little text-gray">|</span> 
+            <a href="#">联系</a>
+        </span>
+        <c:if test="${userd!=null}">
+            欢迎您：${userd.userid} 登录
+        </c:if>
+    </div>
+</div>
+<div class="container-layout padding-big-top padding-big-bottom bg-green bg-inverse">
+    <div class="line">
+        <div class="xl12 xs2 xm2 xb1">
+            <button class="button icon-navicon float-right bg-white" data-target="#header-demo4">
+            </button>
+
+        </div>
+        <div class=" xl12 xs10 xm10 xb11 padding-top nav-navicon" id="header-demo4">
+            <div class="xs8 xm8 xb6">
+                <ul class="nav nav-menu nav-inline nav-pills">
+
+                    <li class="active"><a href="StuDisplayServlet">学生信息管理<span class="arrow"></span></a>
+                    </li>
+                    <li class="active" ><a href="CouDisplayServlet">课程信息管理<span class="arrow"></span></a> 
+                        <ul class="drop-menu">
+                            <li><a href="seekcourse.jsp">查询个人课程信息</a> </li>
+                        </ul>
+                    </li>
+                    <li class="active" ><a href="ChooseDisplayServlet">选课信息管理<span class="arrow"></span></a> 
+                        <ul class="drop-menu">
+                            <li><a href="choosecourse.jsp">选课</a> </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+       
+        </div>
+    </div>
+</div>

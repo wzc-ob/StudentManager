@@ -1,0 +1,35 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="container-layout padding-big-top padding-big-bottom">
+    <div class="line">
+        <div class="xl12 xs5 xm4 xb4">
+            <button class="button icon-navicon float-right" data-target="#header-demo1">
+            </button>
+            <a href="#">
+                <h2>学生信息管理系统</h2>
+            </a>
+        </div>
+        <div class="xl12 xs8 xm8 xb8 padding-small-top">
+            <ul class="nav nav-menu nav-inline nav-navicon" id="header-demo1">
+
+                <li class="active"><a href="DisplayServlet">所有学生信息管理<span class="arrow"></span></a>
+                    <ul class="drop-menu">
+                        <li><a href="stuinsert.jsp">添加学生记录</a> </li>
+                    </ul>
+                </li>
+                <li class="active" ><a href="TeaCouDisplayServlet">课程信息管理<span class="arrow"></span></a> 
+                    <ul class="drop-menu">
+                        <li><a href="teaseekcourse.jsp">查询所教课程信息</a> </li>                  
+                    </ul>
+                </li>
+                <li class="active" ><a href="TeaDisplayServlet">教师个人信息管理<span class="arrow"></span></a> 
+                </li>
+                <li class="active" ><a href="GradeDisplayServlet">学生成绩管理<span class="arrow"></span></a> 
+                    <ul class="drop-menu">
+                        <li><a href="teacouinsert.jsp">添加学生课程成绩</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

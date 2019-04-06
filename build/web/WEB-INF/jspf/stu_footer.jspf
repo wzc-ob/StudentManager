@@ -1,0 +1,37 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="container">
+    <div class="navbar  bg-green bg-inverse radius clearfix">
+        <div class="navbar-head">
+            <button class="button bg-white icon-navicon" data-target="#navbar-foot1">
+            </button>
+            <a href="#">         
+            </a>
+        </div>
+        <div class="navbar-body nav-navicon" id="navbar-foot1">
+            <ul class="nav nav-inline nav-split">
+                <li><a href="#">新闻资讯</a> </li>
+                <li><a href="#">产品中心</a> </li>
+                <li><a href="#">技术反馈</a> </li>
+                <li><a href="#">留言反馈</a> </li>
+                <li><a href="#">联系方式</a> </li>
+
+
+                <button class="button win-back icon-arrow-left">
+                    后退</button>
+                <button class="button win-forward">
+                    前进 <span class="icon-arrow-right"></span>
+                </button>
+                <button class="button win-backtop">
+                    返回顶部 <span class="icon-arrow-up"></span>
+                </button>
+            </ul>
+            <p class="navbar-right navbar-text hidden-s">
+                热线：187-7280-7550</p>
+        </div>
+
+    </div>
+    <br />
+    <div class="text-center">
+        版权所有 © Pintuer.com All Rights Reserved，图ICP备：380959609</div>
+</div>

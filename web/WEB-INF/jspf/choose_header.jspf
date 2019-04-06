@@ -1,0 +1,31 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="container-layout padding-big-top padding-big-bottom">
+    <div class="line">
+        <div class="xl12 xs5 xm4 xb4">
+            <button class="button icon-navicon float-right" data-target="#header-demo1">
+            </button>
+            <a href="#">
+                <h2>欢迎选课</h2>
+            </a>
+        </div>
+        <div class="xl12 xs8 xm8 xb8 padding-small-top">
+            <ul class="nav nav-menu nav-inline nav-navicon" id="header-demo1">
+
+                <li class="active"><a href="StuDisplayServlet">学生信息管理<span class="arrow"></span></a>
+
+                </li>
+                <li class="active" ><a href="CouDisplayServlet">课程信息管理<span class="arrow"></span></a> 
+                    <ul class="drop-menu">
+                        <li><a href="seekcourse.jsp">查询个人课程信息</a> </li>
+                    </ul>
+                </li>
+                <li class="active" ><a href="ChooseDisplayServlet">选课信息管理<span class="arrow"></span></a> 
+                    <ul class="drop-menu">
+                        <li><a href="choosecourse.jsp">选课</a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
